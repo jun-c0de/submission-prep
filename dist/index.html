@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="제출용 파일을 한곳에서 정리하고 용량, 형식, 파일명을 검수하는 브라우저 기반 도구입니다." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="제출준비 | 제출용 파일 정리·검수" />
+  <meta property="og:description" content="제출 전 파일의 형식, 용량, 파일명을 브라우저에서 빠르게 확인하세요." />
+  <meta property="og:url" content="https://jechuljunbi.sh48520414.chatgpt.site/" />
+  <meta name="twitter:card" content="summary" />
   <title>제출준비 | 제출용 파일 정리·검수</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
@@ -33,8 +39,13 @@
       <div class="result-table" id="resultTable"><div class="table-empty">검사 결과가 여기에 표시됩니다.</div></div>
     </section>
     <section class="content-guide"><div><p class="eyebrow">HOW IT WORKS</p><h2>제출 직전의 작은 실수를<br />줄여보세요.</h2></div><div class="guide-grid"><article><span>01</span><h3>파일을 한곳에 모으기</h3><p>여러 폴더와 앱을 오갈 필요 없이 제출할 파일을 한 번에 불러옵니다.</p></article><article><span>02</span><h3>조건을 미리 확인하기</h3><p>파일 형식, 용량, 이름을 제출 전에 확인해 누락과 재작업을 줄입니다.</p></article><article><span>03</span><h3>정리된 결과 받기</h3><p>순서를 정리한 뒤 PDF 또는 ZIP으로 내려받아 바로 제출합니다.</p></article></div></section>
+    <section class="policy-grid" aria-label="서비스 안내">
+      <article class="policy-card" id="privacy"><p class="eyebrow">PRIVACY</p><h2>개인정보처리방침</h2><p>제출준비는 파일을 서버로 전송하지 않고 사용자의 브라우저 안에서 파일 목록과 검수 작업을 처리합니다.</p><ul><li>업로드한 파일 원본은 서버에 저장하지 않습니다.</li><li>저장 설정은 사용자의 브라우저에만 보관됩니다.</li><li>사용자가 직접 문의를 보내는 경우에만 문의 내용이 전달됩니다.</li></ul></article>
+      <article class="policy-card" id="terms"><p class="eyebrow">TERMS</p><h2>이용약관</h2><p>이 서비스는 제출 전 파일을 정리하고 조건을 확인하기 위한 보조 도구입니다.</p><ul><li>최종 제출 형식과 기관별 요구사항은 사용자가 직접 확인해야 합니다.</li><li>서비스 결과만을 근거로 한 제출 누락이나 불이익에 대해 책임지지 않습니다.</li><li>브라우저와 외부 라이브러리의 일시적 오류가 발생할 수 있습니다.</li></ul></article>
+      <article class="policy-card" id="contact"><p class="eyebrow">CONTACT</p><h2>문의</h2><p>서비스 오류나 개선 의견은 아래 이메일로 보내주세요.</p><a class="contact-link" href="mailto:contact@jechuljunbi.site">contact@jechuljunbi.site</a></article>
+    </section>
   </main>
-  <footer><span>제출준비</span><span>브라우저에서 안전하게 처리됩니다 · 파일은 서버로 전송되지 않습니다</span></footer>
+  <footer><span>제출준비</span><span>브라우저에서 안전하게 처리됩니다 · 파일은 서버로 전송되지 않습니다</span><nav><a href="#privacy">개인정보처리방침</a><a href="#terms">이용약관</a><a href="#contact">문의</a></nav></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="/app.js"></script>
