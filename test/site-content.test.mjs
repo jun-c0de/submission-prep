@@ -16,4 +16,5 @@ test('homepage includes policy content matching browser-only processing', () => 
   assert.match(html, /개인정보처리방침/);
   assert.match(html, /파일은 서버로 전송되지 않습니다/);
   assert.match(html, /이용약관/);
+  assert.doesNotMatch(html, /contact@jechuljunbi\.site/);
 });
